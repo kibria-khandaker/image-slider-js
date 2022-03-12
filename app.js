@@ -123,9 +123,4 @@ sliderBtn.addEventListener('click', function () {
   createSlider()
 })
 //-------------------------------------------------
-// search work by Enter key
-searchFieldArea.addEventListener("keypress", function(event) {
-    if (event.key == 'Enter'){
-      searchBtn.click();
-    }
-});
+
